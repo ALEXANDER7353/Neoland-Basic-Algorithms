@@ -18,12 +18,12 @@ console.log(15 / 9);
 let p = 10;
 let j = 5;
 let o = 15;
- console.log(o) = "(p + j)";
+ console.log=(p + j);
  1.5
  let c = 10;
  let m = 5;
  let i = 50;
- console.log(c) = "(c * m)";
+ console.log=(c * m);
  
  
 
