@@ -1,4 +1,4 @@
-// EJERCISIO  Variables
+// EJERCISIOS  Variables
 
 let myFavoriteHero = "hulk";
 let x = 50;
@@ -6,7 +6,7 @@ let h = 5;
 let y = 10;
 let z = h + y;
 
-// EJERCIO  Operadores
+// EJERCISIOS  Operadores
 
 ///1.1
 console.log(10 * 5);
@@ -27,7 +27,7 @@ let o = 15;
  console.log(c * m);
  
  
-/// ejercio  Variables avanzadas
+/// EJERCISIOS  Variables avanzadas
 
 ///1.1 
 const character = {name: 'Jack Sparrow', age: 10};
@@ -38,7 +38,7 @@ character.age = 25;
  let 	firstName = 'Jon';  lastName = 'Snow';age = 24;
 
  let nombreCompletoEspacios = "Soy ${firstName} ${lastName} tengo  ${age}  años y me gustan los lobos";
- /// nose porque no me da la frase en la consola.
+ ///!*** nose porque no me da la frase en la consola.
 console.log(nombreCompletoEspacios);
 
 
@@ -68,7 +68,7 @@ console.log(globalBasePrice + car2.basePrice);
 console.log(globalBasePrice + car2.basePrice + car2.finalPrice);
 
 
-///  EJERCISIO Arrays
+///  EJERCISIOS Arrays
 //1.1
 const avengers = ["HULK", "SPIDERMAN", "BLACK PANTHER"];
 console.log( avengers[0]);
@@ -109,7 +109,7 @@ let primeraririckAndMortyCharacters1 = rickAndMortyCharacters1 .slice(0,1);
 console.log(primeraririckAndMortyCharacters1);
 
 ///1.6
-//Elimina el segundo elemento del array y muestra el array por consola.
+
 
 let menoselemtosrickAndMortyCharacters1 = rickAndMortyCharacters1.splice(1, 1,)
 
