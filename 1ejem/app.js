@@ -1,4 +1,4 @@
-// EJERCISIOS  Variables
+/// EJERCISIOS  Variables
 
 let myFavoriteHero = "hulk";
 let x = 50;
@@ -6,7 +6,7 @@ let h = 5;
 let y = 10;
 let z = h + y;
 
-// EJERCISIOS  Operadores
+/// EJERCISIOS  Operadores
 
 ///1.1
 console.log(10 * 5);
@@ -37,9 +37,10 @@ character.age = 25;
  ///1.2
  let 	firstName = 'Jon';  lastName = 'Snow';age = 24;
 
- let nombreCompletoEspacios = "Soy ${firstName} ${lastName} tengo  ${age}  años y me gustan los lobos";
+ let nombreCompletoEspacios = "Soy ${this.firstName} ${this.lastName} tengo  ${this.age}  años y me gustan los lobos";
  ///!*** nose porque no me da la frase en la consola.
 console.log(nombreCompletoEspacios);
+
 
 
 
