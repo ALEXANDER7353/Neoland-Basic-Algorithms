@@ -35,11 +35,12 @@ character.age = 25;
  console.log(character);
 
  ///1.2
- let 	firstName = 'Jon';  lastName = 'Snow';age = 24;
+ let firstName = 'Jon'; lastName = 'Snow'; age = 24;
 
- let nombreCompletoEspacios = "Soy ${this.firstName} ${this.lastName} tengo  ${this.age}  años y me gustan los lobos";
+ let nombreCompletoEspacios = "Soy ${firstName} ${lastName} tengo  ${age}  años y me gustan los lobos";
  ///!*** nose porque no me da la frase en la consola.
 console.log(nombreCompletoEspacios);
+
 
 
 
@@ -120,6 +121,55 @@ console.log(menoselemtosrickAndMortyCharacters1);
 console.log(rickAndMortyCharacters1);
 
 
+/// EJERCISIO 5 Condicionales
+
+const number1 = 10;
+const number2 = 20;
+const number3 = 2;
+
+/// 1.1 console.log("number2 dividido entre number1 es igual a 2");
+
+let = (number2 / number1);
+
+console.log(number2 / number1 ); ////  2 
+
+/// 1.2  console.log("number1 es estrictamente distinto a number2");
+
+let = (number1 === number2); 
+console.log(number1 === number2); 
+
+/// 1.3  console.log("number3 es distinto number1");
+
+let = (number3 == number1);
+
+console.log(number3 == number1); 
+
+///  1.4 console.log("number3 por 5 es igual a number1");
+
+let = (number3 * 5 );
+console.log(number3 * 5 ); 
+
+/// 1.5 console.log("number3 por 5 es igual a number1 Y number1 por 2 es igual a number2");
+
+let = ((number3 * 5) * 2  )
+console.log((number3 * 5) * 2  );
+
+/// 1.6   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
+
+let = (number2 / 2 ) , (number1 / 5);
+console.log(number2 / 2 ) , (number1 / 5);
+
+/// EJERCISIO 6: Bucles
+
+///1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
+
+for (let saludo = 0; saludo < 9; saludo++){
+    console.log("hola");
+
+    
+
+}
+console.log(sludo);
 
 
 
@@ -137,7 +187,8 @@ console.log(rickAndMortyCharacters1);
 
 
 
-////
+
+
 
 
 
