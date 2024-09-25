@@ -163,13 +163,14 @@ console.log(number2 / 2 ) , (number1 / 5);
 
 ///1.1 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola.
 
-for (let saludo = 0; saludo < 9; saludo++){
-    console.log("hola");
+let numeros = "()"
 
+for  ( let numeros = 0 ; numeros < 10; numeros++){
+    console.log(numeros);
     
-
 }
-console.log(sludo);
+
+console.log(numeros );
 
 
 
