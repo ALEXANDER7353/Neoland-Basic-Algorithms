@@ -150,18 +150,19 @@ console.log(number3 !== number1);
 
 ///  1.4 console.log("number3 por 5 es igual a number1");
 
-let = (number3 * 5 );
-console.log(number3 * 5 ); 
+let = (number3 * 5 == number1);
+console.log(number3 * 5 == number1 ); 
+
 
 /// 1.5 console.log("number3 por 5 es igual a number1 Y number1 por 2 es igual a number2");
 
-let = ((number3 * 5) * 2  )
-console.log((number3 * 5) * 2  );
+let = ((number3 * 5) == (number1 * 2) == number2 );
+console.log((number3 * 5) == (number1 * 2) == number2 );
 
 /// 1.6   console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 
-let = (number2 / 2 ) , (number1 / 5);
-console.log(number2 / 2 ) , (number1 / 5);
+let = (number2 / 2 ) || (number1 / 5);
+console.log(number2 / 2 ) || (number1 / 5);
 
 /// EJERCISIO 6: Bucles
 
