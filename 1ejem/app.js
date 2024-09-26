@@ -37,9 +37,10 @@ character.age = 25;
  ///1.2
  let firstName = 'Jon'; lastName = 'Snow'; age = 24;
 
- let nombreCompletoEspacios = "Soy ${firstName} ${lastName} tengo  ${age}  años y me gustan los lobos";
- ///!*** nose porque no me da la frase en la consola.
+ let nombreCompletoEspacios = `Soy ${firstName} ${lastName} tengo  ${age}  años y me gustan los lobos`;
+
 console.log(nombreCompletoEspacios);
+
 
 
 
@@ -129,20 +130,23 @@ const number3 = 2;
 
 /// 1.1 console.log("number2 dividido entre number1 es igual a 2");
 
-let = (number2 / number1);
+let = (number2 / number1== 2 );
 
-console.log(number2 / number1 ); ////  2 
+console.log(number2 / number1 == 2 ); ////  2 
 
 /// 1.2  console.log("number1 es estrictamente distinto a number2");
 
-let = (number1 === number2); 
-console.log(number1 === number2); 
+letr = (number1 !== number2)
+
+console.log(number1 !== number2);
 
 /// 1.3  console.log("number3 es distinto number1");
 
-let = (number3 == number1);
+let = (number3 !== number1);
 
-console.log(number3 == number1); 
+console.log(number3 !== number1); 
+
+
 
 ///  1.4 console.log("number3 por 5 es igual a number1");
 
@@ -170,41 +174,7 @@ for  ( let numeros = 0 ; numeros < 10; numeros++){
     
 }
 
-console.log(numeros );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(numeros);
 
  
 
