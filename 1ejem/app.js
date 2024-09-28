@@ -192,6 +192,23 @@ for (let i = 0; i< 10; i++) {
 ///y cambia el mensaje en la décima vuelta a 'Dormido!'.
 
 
+let listaNumeros = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,11];
+
+for (let elemento = 1; elemento < listaNumeros.length; elemento++) {
+    if (listaNumeros[elemento] === 11) {
+        console.log(elemento,  'Dormido!');
+    } else {
+        console.log(elemento, 'Intentando dormir 🐑');
+
+    }
+}
+
+    
+   
+    
+ 
+
+
     
   
 
