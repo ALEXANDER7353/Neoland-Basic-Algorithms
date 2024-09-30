@@ -1,4 +1,6 @@
 
+//  EJERCISIOS DE FUNCIONES 
+
 /// 1: Buscar el máximo
 
 function sum(numberOne , numberTwo) {
