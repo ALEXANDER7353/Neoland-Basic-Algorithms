@@ -55,24 +55,18 @@ function promedio (e){
 console.log(promedio(numbers1));
 
 
+// 5: Calcular promedio de strings
 
+//crea una función que reciba por parámetro un array y cuando es un valor number lo sume
+ //y de lo contrario cuente la longitud del string y lo sume. Puedes usar este array para probar tu función:
 
-
-//let sum2 = numbers1.reduce((anterior, actual) => anterior + actual,0);
-
-//et promedio = sum2 / numbers1.length;
-
-
-//console.log(promedio );
-
-
-
-
-
-
-
-
-
-
-
-
+ const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+ 
+ let listmixedElementsa = mixedElements.map(
+  function (elemento) {
+      return elemento + elemento[numero]
+  }
+  
+ )
+ console.log(listmixedElementsa);
+ 
