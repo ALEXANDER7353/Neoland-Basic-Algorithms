@@ -55,18 +55,91 @@ function promedio (e){
 console.log(promedio(numbers1));
 
 
-// 5: Calcular promedio de strings
 
-//crea una función que reciba por parámetro un array y cuando es un valor number lo sume
- //y de lo contrario cuente la longitud del string y lo sume. Puedes usar este array para probar tu función:
+//* Iteración #5: Calcular promedio de strings
+/* Crea una función que reciba por parámetro un array 
+y cuando es un valor number lo sume y de lo contrario cuente la longitud del string y lo sume. */
 
- const mixedElements = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
- 
- let listmixedElementsa = mixedElements.map(
-  function (elemento) {
-      return elemento + elemento[numero]
-  }
+const mix = [6, 1, 'Rayo', 1, 'vallecano', '10', 'upgrade', 8, 'hub'];
+
+function sumaMix(array) {
+    const total = array.reduce((acc, actual) => {
+        if (typeof actual == 'number') {
+            return acc + actual; // si es number se suma el actual al acc
+        } else if (typeof actual == 'string') {
+            return acc + actual.length; // si es string se suma la longitud del actual al acc
+        } else {
+            return acc;
+        }
+    }, 0);
+    return total; // 41,  es el total de la suma de los number y las longitudes de los string
+
+    // EXTRA --> Calcular la media del total entre el número de elementos
+    
+}
+console.log('SUMA MIX 🫱', sumaMix(mix));
+
+  // 6: Valores únicos
+
+  //crea una función que reciba por parámetro un array y compruebe si existen elementos duplicados,
+  //en caso que existan los elimina para retornar un array sin los elementos duplicados.
+
+  const duplicates = [
+    'sushi',
+    'pizza',
+    'burger',
+    'potatoe',
+    'pasta',
+    'ice-cream',
+    'pizza',
+    'chicken',
+    'onion rings',
+    'pasta',
+    'soda'
+  ]; 
+  let result = duplicates.filter((item,index)=>{
+    return duplicates.indexOf(item) === index;
+  })
+  console.log(result);
+
+
+  //7: Buscador de nombres
+
+  const nameFinder = [
+    'Peter',
+    'Steve',
+    'Tony',
+    'Natasha',
+    'Clint',
+    'Logan',
+    'Xabier',
+    'Bruce',
+    'Peggy',
+    'Jessica',
+    'Marc'
+  ];
   
- )
- console.log(listmixedElementsa);
+  let todosPares = nameFinder.every(
+    function (pares) {
+        return nameFinder % 2 === 0;
+    }
+)  
+console.log(todosPares);
+
+
  
+ 
+
+
+  
+  
+  
+  
+  
+  
+  
+ 
+
+    
+  
+  
