@@ -104,6 +104,7 @@ console.log('SUMA MIX 🫱', sumaMix(mix));
 
 
   //7: Buscador de nombres
+  // nome sale 
 
   const nameFinder = [
     'Peter',
