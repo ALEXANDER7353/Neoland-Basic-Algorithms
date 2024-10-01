@@ -118,14 +118,41 @@ console.log('SUMA MIX 🫱', sumaMix(mix));
     'Jessica',
     'Marc'
   ];
-  
-  let todosPares = nameFinder.every(
-    function (pares) {
-        return nameFinder % 2 === 0;
-    }
-)  
-console.log(todosPares);
+  function finderName(array) {
+   
+    let nombre;
+nombre = nameFinder.includes("juan");º
 
+console.log("el nombre juan en la lista: "+finderName);
+  }
+ 
+   
+
+
+  //8: Contador de repeticiones
+  const counterWords = [
+    'code',
+    'repeat',
+    'eat',
+    'sleep',
+    'code',
+    'enjoy',
+    'sleep',
+    'code',
+    'enjoy',
+    'upgrade',
+    'code'
+  ];
+  
+  const result1 = {};
+
+  counterWords.forEach((value) => {
+    result1[value] = (result1[value] || 0) + 1;
+  });
+
+  console.log(result1);
+  
+ 
 
  
  
