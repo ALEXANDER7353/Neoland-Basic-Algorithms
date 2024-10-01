@@ -8,7 +8,7 @@
 const products = ['Camiseta de Pokemon', 'Pantalón coquinero', 'Gorra de gansta',
      'Camiseta de Basket', 'Cinrurón de Orión', 'AC/DC Camiseta']
      
-     console.log(products.includes("Camiseta"));
+    
        
 
 
@@ -23,12 +23,20 @@ const products = ['Camiseta de Pokemon', 'Pantalón coquinero', 'Gorra de gansta
       //3: Probando For...of
 
       const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
-   for (const element of placesToTravel) 
-    {
-      console.log(placesToTravel);
-     }
+
+      for (const element of placesToTravel) {
+
+          console.log(element);
+          
+     
+   }
+      
+
+ 
      
 
+          
+     
 
 
      //4: Probando For...in
@@ -53,4 +61,6 @@ const products = ['Camiseta de Pokemon', 'Pantalón coquinero', 'Gorra de gansta
      const placesToTravel1 = [{id: 5, name: 'Japan'}, {id: 11, name: 'Venecia'}, {id: 23, name: 'Murcia'},
            {id: 40, name: 'Santander'}, {id: 44, name: 'Filipinas'}, {id: 59, name: 'Madagascar'}]
            
-        
+           const resultado = placesToTravel.filter(e => e.numero != 40  );
+           
+           console.log(resultado);
