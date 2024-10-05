@@ -119,16 +119,19 @@ console.log('SUMA MIX 🫱', sumaMix(mix));
     'Jessica',
     'Marc'
   ];
-  function finderName(array) {
-   
-    let nombre;
-nombre = nameFinder.includes("juan");º
-
-console.log("el nombre juan en la lista: "+finderName);
+  function finderName(e, name) {
+    for (let i = 0; i < e.length; i++){
+      if (e[i] === name){
+        return { inArray: true, position: i };
+      }
+    }
+    return { inArray: false };
   }
  
    
-
+  console.log(finderName(nameFinder, 'Uma')); 
+  console.log(finderName(nameFinder, 'Marc')); 
+  
 
   //8: Contador de repeticiones
   const counterWords = [
