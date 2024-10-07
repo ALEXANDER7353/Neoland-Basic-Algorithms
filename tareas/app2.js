@@ -58,41 +58,7 @@
       
              
        
-       
-      
-      
-     
-     
-      
-         
-     
-
-            
-
-
-
-           
-
-           
-          
-          
-
-
-
-
-
-
-
-
-
-     
-     
-     
-     
-     
-     
-     
-           //3: Probando For...of
+         //3: Probando For...of
 
       const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
           
@@ -170,6 +136,7 @@
       const popularToys1 = []
       
       for (const element of toys1) {
+       let menostoys = 
           
      
      
